@@ -1,6 +1,7 @@
 # React Window Example
 
 An example of using react-window to improve the general and scrolling performance of a long and visually complex list.
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
