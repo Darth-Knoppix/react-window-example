@@ -12,7 +12,7 @@ class App extends Component {
   renderVirtual() {
     return (
       <List
-        height={window.visualViewport.height}
+        height={Math.max(document.documentElement.clientHeight, window.innerHeight || 0)}
         itemCount={1000}
         itemSize={366}
         width="100%"
